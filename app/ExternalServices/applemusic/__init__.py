@@ -1,0 +1,1 @@
+from .parser import apple_music_get

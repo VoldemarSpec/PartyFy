@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: CircularSpotifyText;
+    src: url("./fonts/CircularSpotifyText-Bold.otf") format("opentype");
+    font-display: swap;
+}
+
+
+@theme{
+    --font-sans: "CircularSpotifyText", Arial, sans-serif;
+    --font-spotify: "CircularSpotifyText", Arial, sans-serif;
+    --color-bgcolor: #212121;
+    --color-displaybgcolor: #121212;
+    --color-spoti: #FF007F;
+    --color-grayspoti: #535353;
+    --color-darkgray: #232723;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "CircularSpotifyText", Arial, sans-serif;
+}
